@@ -19,8 +19,14 @@ public class Holamundo {
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null, "hola mundo");
         int a;
+        
     }
     public void multiplicar()
+    {
+        int i = 15;
+        JOptionPane.showMessageDialog(null, i*5);
+    }
+    public void dividir()
     {
         int i = 15;
         JOptionPane.showMessageDialog(null, i*5);
